@@ -25,6 +25,7 @@ DEFAULT CONFIG                                  *diffview.defaults*
       --  'diff1_plain'
       --    |'diff2_horizontal'
       --    |'diff2_vertical'
+      --    |'diff_unified'
       --    |'diff3_horizontal'
       --    |'diff3_vertical'
       --    |'diff3_mixed'

@@ -5,6 +5,24 @@ CHANGELOG
 
 NOTE: This changelog only encompasses breaking changes.
 
+                                                *diffview.changelog-unified*
+
+Added new unified diff layout ("diff_unified") that shows only the working copy
+of a file in a single panel, making it similar to how unified diffs appear in other
+tools. To use it, set the layout in your config:
+
+```lua
+require("diffview").setup({
+  view = {
+    default = {
+      layout = "diff_unified",
+    },
+  },
+})
+```
+
+Or cycle to it using the default keybinding `g<C-x>`.
+
                                                 *diffview.changelog-271*
 
 PR: https://github.com/sindrets/diffview.nvim/pull/271
